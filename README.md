@@ -13,8 +13,7 @@ You will need to create a config.json file in the same folder as pyflare.py - th
 Note the curly braces are not to be included.
 ```
 {
-	"email": "{the email address on your Cloudflare account}",
-	"key": "{your API key for Cloudflare}",
+	"key": "{your API Token for Cloudflare}",
 	"zone": "{the DNS zone that contains the record you are updating}",
 	"record": "{the specific record to be updated}"
 	"ttl": "{time to live, 1=automatic}"
